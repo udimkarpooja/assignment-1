@@ -1,0 +1,284 @@
+{
+ "cells": [
+  {
+   "cell_type": "markdown",
+   "id": "63826f69-95f5-4359-8151-6d39b4aa982f",
+   "metadata": {},
+   "source": [
+    "Q1). Comments in Python are identified with a # symbol and extend to the end of the line for example :"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 1,
+   "id": "d59992dc-700e-443d-9c07-b59657416eaa",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "#this is my assignment"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "9e306908-080b-49bf-ad24-16dcd56c65da",
+   "metadata": {},
+   "source": [
+    "There are three ways to write a comment - as a separate line, beside the corresponding statement of code, or as a multi-line comment block."
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "1d5f294f-ec0e-477b-afe4-11d13d1cbf6d",
+   "metadata": {},
+   "source": [
+    "Q2). A variable is a string of charecters and numbers associated with a piece of information. the assignment operator, denoted by the \"=\" symbol , is the operator that is used to assign values to variables in python. for example : "
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 3,
+   "id": "107c0559-52be-4a93-8454-86ec84865e8d",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "x = 1 "
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "cd625e17-4c72-4145-8989-f39655664fad",
+   "metadata": {},
+   "source": [
+    "the line takes the known value,1 and assigns that value to the variable with name \"x\""
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "e2ac3204-506c-45dd-84f9-a1caf6929631",
+   "metadata": {},
+   "source": [
+    "Q3). To convert between types, simply use the type name as a function"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "a0e741b1-1294-4715-ae89-c21904251912",
+   "metadata": {},
+   "source": [
+    "Q4).The most basic and easy way to run a Python script is by using the python command. You need to open a command line and type the word python followed by the path to your script file like this: python first_script.py Hello World! Then you hit the ENTER button from the keyboard, and that's it."
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 4,
+   "id": "11f0542e-877a-477a-837e-b0660b055a55",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "#Q5).\n",
+    "my_list = [1,2,3,4,5]"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 8,
+   "id": "9bf8110c-c253-417f-84e4-493b4cb3f5f3",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "[2, 3]"
+      ]
+     },
+     "execution_count": 8,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "my_list[1:3:]"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "37f54486-19a7-4ad5-9137-ca9c5fd1c85b",
+   "metadata": {},
+   "source": [
+    "Q6). In mathematics, Complex numbers are created from two real numbers. You can create it directly or you can use the complex function. It is written in the form of (x+yi) where x and y are real numbers and i is an imaginary number \n",
+    " BUT In python, it is written in the form of (x+yj)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 9,
+   "id": "2435dfbe-6218-4ca2-a6f0-bf89e29fbaa3",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "#Q7).\n",
+    "age=25"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 10,
+   "id": "11da3497-1fc2-47c8-8637-e971d2b77852",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "#Q8).\n",
+    "price = 9.99"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 11,
+   "id": "18888992-88d3-40d7-a48d-d69475c0ae63",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "float"
+      ]
+     },
+     "execution_count": 11,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "type(price)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 13,
+   "id": "c720a452-6a97-4c74-90f6-015a07d6111f",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "22"
+      ]
+     },
+     "execution_count": 13,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "#Q9).\n",
+    "name = \"pooja haribhau udimkar\"\n",
+    "len(name)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 14,
+   "id": "2c81d401-e2eb-456e-82eb-071854c510d4",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "'pooja haribhau udimkar'"
+      ]
+     },
+     "execution_count": 14,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "name[::]"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 17,
+   "id": "e2f1dc0c-0e47-4d51-b031-18b771e7482a",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "#Q10).\n",
+    "S = \"Hello,World!\""
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 19,
+   "id": "fdd29454-3de7-46e9-97f3-eaad47893004",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "'Hello'"
+      ]
+     },
+     "execution_count": 19,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "S[:5:]"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 41,
+   "id": "d588db60-bb66-4d0c-b215-48899d5beaf9",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdin",
+     "output_type": "stream",
+     "text": [
+      " True\n"
+     ]
+    },
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "you are currently a student \n"
+     ]
+    }
+   ],
+   "source": [
+    "#q11).\n",
+    "is_student = bool(input())\n",
+    "if is_student ==True :\n",
+    "    print(\"you are currently a student \")\n",
+    "else :\n",
+    "    print(\"you are not currently a student \")\n",
+    "    "
+   ]
+  }
+ ],
+ "metadata": {
+  "kernelspec": {
+   "display_name": "Python 3 (ipykernel)",
+   "language": "python",
+   "name": "python3"
+  },
+  "language_info": {
+   "codemirror_mode": {
+    "name": "ipython",
+    "version": 3
+   },
+   "file_extension": ".py",
+   "mimetype": "text/x-python",
+   "name": "python",
+   "nbconvert_exporter": "python",
+   "pygments_lexer": "ipython3",
+   "version": "3.10.8"
+  }
+ },
+ "nbformat": 4,
+ "nbformat_minor": 5
+}
